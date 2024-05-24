@@ -1,0 +1,14 @@
+Color Markers Color Codes
+red marker
+  color: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  shade: rgba(83, 14, 14, 0.8);
+
+
+green marker
+  color: linear-gradient(#55680D, #71F53E, #116C31);
+  shade: #3B7E20CC;
+
+
+blue marker
+  color: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  shade: hsla(223, 59%, 31%, 0.8);
