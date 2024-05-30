@@ -1,0 +1,79 @@
+body {
+    background-color: #9BC4BC;
+    margin: 5% 10%;
+    color: #090909;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, p {
+    text-align: center;
+}
+
+p {
+    color: #D3FFE9;
+}
+
+form {
+    padding: 7% 5%;
+    background-color: #171918;
+    opacity: 0.8;
+    color: #D3FFE9;
+}
+
+label, legend {
+    display: block;
+    color: #F3CFD6;
+    margin-top: 1em;
+}
+
+input[type=text], input[type=email], input[type=number] {
+    display: inline-block;
+    background-color: #f3ebed;
+    min-height: 2em;
+    width: 100%;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+fieldset {
+    margin: 1em 0;
+    width:25%;
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+fieldset label {
+    font-size: small;
+}
+
+textarea {
+    display: block;
+    background-color: #f3ebed;
+    width: 100%;
+}
+
+button {
+    margin: 5% 2%;
+    margin-bottom: 1%;
+    background-color: #F3CFD6;
+    padding: 0.5em;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+button:last-child {
+    background-color: #D3FFE9;
+}
+
+.form-buttons {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <section>
+        <h1 id="title">Survey</h1>
+        <p id="description">Thank you for your feedback!</p>
+    </section>
+    <section class="form-section">
+        <form id="survey-form">
+            <label for="name" id="name-label">Enter name: </label>
+            <input id="name" type="text" placeholder="ex. John Doe" required/>
+            <label for="email" id="email-label">Enter email: </label>
+            <input id="email" type="email" placeholder="ex. email@gmail.com" required/>
+            <label for="number" id="number-label">Enter number: </label>
+            <input id="number" type="number" min="12" max="120" placeholder="ex. 12"/>
+
+            <div class="form-options">
+                <fieldset>
+                    <legend>Hobbies: </legend>
+                    <select id="dropdown">
+                        <option>Sports</option>
+                        <option>Social Media</option>
+                        <option>Others</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Goals: </legend>
+                    <label for="Personal Growth"><input id="Personal Growth" type="radio" name="goals" value="1"/>Personal Growth</label>
+                    <label for="Career Growth"><input id="Career Growth" type="radio" name="goals" value="2"/>Career Growth</label>
+                    <label for="For Fun"><input id="For Fun" type="radio" name="goals" value="3"/>For Fun</label>
+                    <label for="Education"><input id="Education" type="radio" name="goals" value="4"/>Education</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Education: </legend>
+                    <label for="elementary"><input id="elementary" type="checkbox" name="education" value="1"/>Elementary</label>
+                    <label for="High School"><input id="High School" type="checkbox" name="education" value="2"/>High School</label>
+                    <label for="College"><input id="College" type="checkbox" name="education" value="3"/>College</label>
+                    <label for="Masters"><input id="Masters" type="checkbox" name="education" value="4"/>Masters</label>
+                    <label for="Working Professionals"><input id="Working Professionals" type="checkbox" name="education" value="6"/>Working Professionals</label>
+                    <label for="None"><input id="None" type="checkbox" name="education" value="0"/>None</label>
+                </fieldset>
+            </div>
+
+            <label for="comments">Addtional Comments: </label>
+            <textarea id="comments" rows="3" cols="40" placeholder="I like to..."></textarea>
+            
+            <div class="form-buttons">
+                <button id="submit" type="submit">Submit</button>
+                <button id="reset" type="reset">Reset</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
